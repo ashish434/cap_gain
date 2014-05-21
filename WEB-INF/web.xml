@@ -1,0 +1,48 @@
+<!--web.xml-->
+<web-app>
+
+
+
+<!--declaring a servlet-->
+<servlet>
+<servlet-name>si</servlet-name>
+<servlet-class>SignInServlet</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+<servlet-name>h</servlet-name>
+<servlet-class>HomeServlet</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet>
+        <servlet-name>AddPhoto</servlet-name>
+        <servlet-class>AddPhotoServlet</servlet-class>
+    </servlet>
+<servlet>
+        <servlet-name>DisplayPhotoServlet</servlet-name>
+        <servlet-class>DisplayPhotoServlet</servlet-class>
+    </servlet>
+
+
+
+
+<!--configuring servlet mapping-->
+<servlet-mapping>
+<servlet-name>si</servlet-name>
+<url-pattern>/SignInServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>h</servlet-name>
+<url-pattern>/HomeServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+        <servlet-name>AddPhoto</servlet-name>
+        <url-pattern>/addphoto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DisplayPhotoServlet</servlet-name>
+        <url-pattern>/displayphoto</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

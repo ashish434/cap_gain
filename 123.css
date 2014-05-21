@@ -1,0 +1,77 @@
+#navbar span.right{
+	float: right;
+}
+
+
+#png2 {
+    position:absolute;
+    top:172px;
+    left:130px;
+    z-index:0;
+} 
+
+#investor {
+    position:absolute;
+    top:200px;
+    left:1000px;
+    z-index:0;
+}
+
+#advisor {
+    position:absolute;
+    top:320px;
+    left:1000px;
+    z-index:0;
+}
+
+
+ 
+
+ 
+
+#navbar ul { 
+    margin: 0; 
+    padding: 5px; 
+    cellspacing: 0;
+    cellpadding: 0;
+    border: 0;
+    list-style-type: none; 
+    background-color: #08088A; 
+    } 
+
+#navbar ul li {  
+    display: inline; 
+    } 
+
+#navbar ul li a { 
+    text-decoration: none; 
+    padding: .2em 1em; 
+    color: white; 
+    background-color: #08088A; 
+    } 
+
+#navbar ul li a:hover { 
+    color: #0EC6D7; 
+    background-color: #08088A; 
+    }
+
+#templatemo_footer_wrapper {
+
+
+	background: #2E2EFE repeat-x;
+	border-top: 4px solid #FFF254;
+     
+}
+
+#templatemo_footer {
+     width: 950px;
+	margin: 0 auto;	
+	padding: 20px 10px;
+	text-align: left;
+	color: #000000;
+}
+
+#templatemo_footer a {
+
+	color: #000000;
+}
